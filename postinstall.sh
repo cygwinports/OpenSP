@@ -1,1 +1,1 @@
-install-catalog --add /etc/sgml/catalog /usr/share/OpenSP/catalog
+install-catalog --add /etc/sgml/jade.cat /usr/share/OpenSP/catalog

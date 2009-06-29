@@ -1,1 +1,1 @@
-install-catalog --remove /etc/sgml/catalog /usr/share/OpenSP/catalog
+install-catalog --remove /etc/sgml/jade.cat /usr/share/OpenSP/catalog

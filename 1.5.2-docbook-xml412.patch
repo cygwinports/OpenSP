@@ -1,0 +1,62 @@
+The local file location should be resolved via the catalog.
+
+--- origsrc/OpenSP-1.5.2/docsrc/onsgmls.xml	2005-12-08 13:34:01.000000000 -0600
++++ src/OpenSP-1.5.2/docsrc/onsgmls.xml	2009-03-23 14:31:17.781250000 -0500
+@@ -1,6 +1,6 @@
+ <?xml version='1.0'?> 
+ <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+- "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
++ "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+ <article>
+   <articleinfo>
+     <title>onsgmls</title>
+--- origsrc/OpenSP-1.5.2/docsrc/osgmlnorm.xml	2005-12-08 13:34:01.000000000 -0600
++++ src/OpenSP-1.5.2/docsrc/osgmlnorm.xml	2009-03-23 14:30:38.296875000 -0500
+@@ -1,6 +1,6 @@
+ <?xml version='1.0'?>
+ <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+- "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
++ "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+ <article>
+   <articleinfo>
+     <title>osgmlnorm</title>
+--- origsrc/OpenSP-1.5.2/docsrc/ospam.xml	2005-12-08 13:34:01.000000000 -0600
++++ src/OpenSP-1.5.2/docsrc/ospam.xml	2009-03-23 14:30:41.843750000 -0500
+@@ -1,6 +1,6 @@
+ <?xml version='1.0'?>
+ <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+- "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
++ "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+ <article>
+   <articleinfo>
+     <title>ospam</title>
+--- origsrc/OpenSP-1.5.2/docsrc/ospcat.xml	2005-05-14 04:17:42.000000000 -0500
++++ src/OpenSP-1.5.2/docsrc/ospcat.xml	2009-03-23 14:30:45.828125000 -0500
+@@ -1,6 +1,6 @@
+ <?xml version='1.0'?> 
+ <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+- "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
++ "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+ <article>
+ <articleinfo>
+ <title>ospcat</title>
+--- origsrc/OpenSP-1.5.2/docsrc/ospent.xml	2005-12-08 13:34:01.000000000 -0600
++++ src/OpenSP-1.5.2/docsrc/ospent.xml	2009-03-23 14:30:48.859375000 -0500
+@@ -1,6 +1,6 @@
+ <?xml version='1.0'?>
+ <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+- "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
++ "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+ <article>
+   <articleinfo>
+     <title>ospent</title>
+--- origsrc/OpenSP-1.5.2/docsrc/osx.xml	2005-12-08 13:34:01.000000000 -0600
++++ src/OpenSP-1.5.2/docsrc/osx.xml	2009-03-23 14:30:51.500000000 -0500
+@@ -1,6 +1,6 @@
+ <?xml version='1.0'?> <!-- -*- xml -*- -->
+ <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+- "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
++ "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+ <article>
+   <articleinfo>
+     <title>osx</title>

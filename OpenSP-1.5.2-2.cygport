@@ -2,7 +2,7 @@ DESCRIPTION="SGML parser library and utilities"
 HOMEPAGE="http://openjade.sourceforge.net/"
 SRC_URI="mirror://sourceforge/openjade/${P}.tar.gz"
 PATCH_URI="mirror://portage/app-text/opensp/files/opensp-1.5-gcc34.patch
-           1.5.2-docbook-xml412.patch"
+           http://www.linuxfromscratch.org/patches/blfs/5.1/OpenSP-1.5.1-LITLEN.patch"
 
 PKG_NAMES="${PN} libosp5 libosp-devel"
 OpenSP_CONTENTS="--exclude=*.dll etc/ usr/bin/ usr/share/"
@@ -15,6 +15,7 @@ CYGCONF_ARGS="
 	--enable-doc-build
 	--enable-http
 "
+MAKEOPTS+=" pkgdatadir=/usr/share/sgml/${PN}"
 
 src_install() {
 	cd ${B}

@@ -1,10 +1,18 @@
-DESCRIPTION="SGML parser library and utilities"
+NAME="OpenSP"
+VERSION=1.5.2
+RELEASE=2
+CATEGORY="Text"
+SUMMARY="SGML parser utilities"
+DESCRIPTION="OpenJade is a project undertaken by the DSSSL community to
+maintain and extend Jade, as well as the related SP suite of SGML/XML
+processing tools. OpenJade and OpenSP are distributed under the same
+license as Jade."
 HOMEPAGE="http://openjade.sourceforge.net/"
-SRC_URI="mirror://sourceforge/openjade/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/openjade/${NAME}-${VERSION}.tar.gz"
 PATCH_URI="mirror://portage/app-text/opensp/files/opensp-1.5-gcc34.patch
            http://www.linuxfromscratch.org/patches/blfs/5.1/OpenSP-1.5.1-LITLEN.patch"
 
-PKG_NAMES="${PN} libosp5 libosp-devel"
+PKG_NAMES="${NAME} libosp5 libosp-devel"
 OpenSP_CONTENTS="--exclude=*.dll etc/ usr/bin/ usr/share/"
 libosp5_CONTENTS="usr/bin/cygosp-5.dll"
 libosp_devel_CONTENTS="usr/include/ usr/lib/"
